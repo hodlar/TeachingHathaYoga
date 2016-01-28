@@ -1,5 +1,6 @@
 #!/bin/bash
 
 pdflatex test.tex
-sleep 5
+sleep 2
+rm test.aux test.log test.toc
 epdfview test.pdf

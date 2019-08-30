@@ -7,5 +7,5 @@ all:
 	#epdfview TeachingHathaYoga.pdf
 
 clean:
-	rm *.aux *.log *.toc *.pdf
+	rm *.aux *.log *.toc *.pdf *.out
 	rm tex/*.aux
